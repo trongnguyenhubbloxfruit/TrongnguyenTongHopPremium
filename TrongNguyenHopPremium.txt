@@ -10,7 +10,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         KeySystem = true,
         Title = "TrongNguyen Premium🇻🇳",
         Description = "",
-        KeyLink = "https://yeumoney.com/3ibmK",
+        KeyLink = "https://funlink.io/PXLehYx",
         Keys = {"TRONGNGUYEN-F97-J98-QL9-123"},
         Notifi = {
         Notifications = true,
@@ -22,7 +22,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=117243548998451",
+       Image = "http://www.roblox.com/asset/?id=126140395372955",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -506,4 +506,17 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/fakekuri/BlueXHub/ref
       loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
   end
   })
+  AddButton(Tab10o, {
+     Name = "Astral Hub",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+  end
+  })
+  AddButton(Tab9o, {
+     Name = "Zinner Hub",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/HoangNguyenk8/Roblox/refs/heads/main/GrowAGarden.luau"))()    
+  end
+  })
+  
   
