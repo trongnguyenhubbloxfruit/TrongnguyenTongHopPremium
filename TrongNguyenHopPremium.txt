@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
        local Window = MakeWindow({
          Hub = {
-         Title = "TrongNguyen Premium ",
+         Title = "TrongNguyen Premium Vừa đc Update ",
          Animation = "Premium"
          },
         Key = {
@@ -66,7 +66,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   end
   })
   AddButton(Tab2o, {
-     Name = "Andepzai Hub",
+     Name = "Andepzai Hub By Trongnguyen",
     Callback = function()
       repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 loadstring(game:HttpGet("https://raw.githubusercontent.com/trongnguyen345roblox/TRONGNGUYEN/refs/heads/main/andepzainewupdate.txt"))()
@@ -518,5 +518,43 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/fakekuri/BlueXHub/ref
        loadstring(game:HttpGet("https://raw.githubusercontent.com/HoangNguyenk8/Roblox/refs/heads/main/GrowAGarden.luau"))()    
   end
   })
-  
+  AddButton(Tab2o, {
+     Name = "Min Gaming Fake Maru Hub",
+    Callback = function()
+      getgenv().Team = "Pirates"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MinGamingHubNew/RealMinGaming/refs/heads/main/MinGaminvHubBloxFruits.lua"))()
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "Min Gaming English",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinAE"))()
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "HoHo Hub",
+    Callback = function()
+       _G.HohoVersion = "v4"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "Kimp Roblox",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/KimPRobloxV3"))()
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "Andepzak by h.6.h",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/h6hbii/AnDepZaiHub/refs/heads/main/AndepzaiHub.lua"))()
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "Andepzai real",
+    Callback = function()
+       repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubNewUpdated.lua"))()
+  end
+  })
   
