@@ -506,7 +506,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/fakekuri/BlueXHub/ref
       loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
   end
   })
-  AddButton(Tab10o, {
+  AddButton(Tab2o, {
      Name = "Astral Hub",
     Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
