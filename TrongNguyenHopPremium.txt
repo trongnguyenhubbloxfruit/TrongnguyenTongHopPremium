@@ -10,7 +10,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         KeySystem = true,
         Title = "TrongNguyen Premium🇻🇳",
         Description = "",
-        KeyLink = "https://funlink.io/PXHWbnS",
+        KeyLink = "https://yeumoney.com/3ibmK",
         Keys = {"TRONGNGUYEN-F97-J98-QL9-123"},
         Notifi = {
         Notifications = true,
