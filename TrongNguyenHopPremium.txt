@@ -3,26 +3,26 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
        local Window = MakeWindow({
          Hub = {
-         Title = "TrongNguyen Premium Update 6.43 Pm ",
-         Animation = "Premium"
+         Title = "TrongNguyen Premium ",
+         Animation = "Tng Hp By Trongnguyen"
          },
         Key = {
         KeySystem = true,
-        Title = "TrongNguyen Premium🇻🇳",
+        Title = "TrongNguyen Premium",
         Description = "",
         KeyLink = "https://funlink.io/PXLehYx",
         Keys = {"TRONGNGUYEN-F97-J98-QL9-123"},
         Notifi = {
         Notifications = true,
-        CorrectKey = "script đang lên đợi 1 Tí",
-       Incorrectkey = "Key Ko Hợp Lệ",
-       CopyKeyLink = "Copy rồi đi get key đi"
+        CorrectKey = "Script ang l�n Vui L�ng i",
+       Incorrectkey = "Key Kh�ng Hp L",
+       CopyKeyLink = "� Copy Key Th�nh C�ng"
       }
     }
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=126140395372955",
+       Image = "http://www.roblox.com/asset/?id=130252464539341",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
