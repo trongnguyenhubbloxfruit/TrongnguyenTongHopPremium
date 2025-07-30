@@ -15,7 +15,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Notifi = {
         Notifications = true,
         CorrectKey = "script đang lên đợi 1 Tí",
-       Incorrectkey = "Đã Get Key Thành Công",
+       Incorrectkey = "Key Ko Hợp Lệ",
        CopyKeyLink = "Copy rồi đi get key đi"
       }
     }
