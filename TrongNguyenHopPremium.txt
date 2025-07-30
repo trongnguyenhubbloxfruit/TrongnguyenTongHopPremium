@@ -4,7 +4,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "TrongNguyen Premium ",
-         Animation = "Tng Hp By Trongnguyen"
+         Animation = "Tng Hp By Trongnguyen"
          },
         Key = {
         KeySystem = true,
@@ -14,9 +14,9 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Keys = {"TRONGNGUYEN-F97-J98-QL9-123"},
         Notifi = {
         Notifications = true,
-        CorrectKey = "Script ang lên Vui Lòng i",
-       Incorrectkey = "Key Không Hp L",
-       CopyKeyLink = "ã Copy Key Thành Công"
+        CorrectKey = "Vui Lòng i",
+       Incorrectkey = "Key Không úng",
+       CopyKeyLink = "ã Copy Key Thành Công"
       }
     }
   })
@@ -31,7 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Tá»± Ä‘á»™ng hop"})
+     local Tab1o = MakeTab({Name = "T ng Hop"})
      local Tab2o = MakeTab({Name = "Script BloxFruits"})
      local Tab3o = MakeTab({Name = "Support all game"})
      local Tab4o = MakeTab({Name = "Script Premium"})
@@ -40,10 +40,10 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab7o = MakeTab({Name = "Auto Bouty BloxFruits"})
      local Tab8o = MakeTab({Name = "Auto V4"})
      local Tab9o = MakeTab({Name = "Script Grow A Garden"})
-     local Tab10o = MakeTab({Name = "99 ngÃ y trong rá»«ng"})
+     local Tab10o = MakeTab({Name = "99 ngày Trong rng"})
      local Tab11o = MakeTab({Name = "Script Dead rail"})
      local Tab12o = MakeTab({Name = "sleat a brainrot"})
-     local Tab13o = MakeTab({Name = "Auto Lá»¥m trÃ¡i"})
+     local Tab13o = MakeTab({Name = "Auto Lm Trái"})
      
 ------- BUTTON
     
@@ -145,19 +145,19 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/
   end
   })
   AddButton(Tab4o, {
-     Name = "Banana Hub Premium(24h Reset key 1 láº§n)",
+     Name = "Banana Hub Premium(24h Reset key 1 ln)",
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/Ditmemaybe/An/refs/heads/main/andepzai%20hub"))()
   end
   })
   AddButton(Tab4o, {
-     Name = "Maru Hub Premium(24h Reset key 1 láº§n)",
+     Name = "Maru Hub Premium(24h Reset key 1 ln)",
     Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/Ditmemaybe/An/refs/heads/main/andepzai%20hub"))()
   end
   })
   AddButton(Tab4o, {
-     Name = "W-azure Hub (24h Reset key 1 láº§n)",
+     Name = "W-azure Hub (24h Reset key 1 ln)",
     Callback = function() game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "c7cf4abb-6682-4f33-86e2-03af70ab3153", game.Players.LocalPlayer)
   end
   })
@@ -193,13 +193,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/HoangNguyenk8/Roblox/
   end
   })
   AddButton(Tab2o, {
-     Name = "KhÃ´ng biáº¿t tÃªn",
+     Name = "Không Bt tên",
     Callback = function()
        loadstring(game:HttpGet('https://github.com/96soul/-/blob/main/load.gg?raw=true', true))()
   end
   })
   AddButton(Tab2o, {
-     Name = "Ä‘Ã´ rÃª mon",
+     Name = "Master Hub",
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/obfmoonsec/Masterhub/refs/heads/main/obf"))()
   end
@@ -212,13 +212,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/AkGaming
   end
   })
   AddButton(Tab2o, {
-     Name = "Báº¯p Red",
+     Name = "Bp Red",
     Callback = function() 
       loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/BapRed/main/BapRedHub"))()
   end
   })
   AddButton(Tab2o, {
-     Name = "Tráº©u Roblox",
+     Name = "Tru Roblox",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/TrauHub/refs/heads/main/TrauTX"))()
   end
@@ -236,7 +236,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/AkGaming
   end
   })
   AddButton(Tab9o, {
-     Name = "Vxeze Hub (báº­t Ä‘c 2 game)",
+     Name = "Vxeze Hub (H Tr 2 game)",
     Callback = function() 
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubMain"))()    
   end
@@ -306,7 +306,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/hungquan99/HungHub/ma
   end
   })
   AddButton(Tab10o, {
-     Name = "Ko bt tÃªn",
+     Name = "Ko bt ten",
     Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", true))()    
   end
@@ -324,13 +324,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/hungquan99/HungHub/ma
   end
   })
   AddButton(Tab12o, {
-     Name = "Ä‘Ã©o biáº¿t tÃªn",
+     Name = "ko bt ten",
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/Estevansit0/KJJK/refs/heads/main/PusarX-loader.lua"))()    
   end
   })
   AddButton(Tab7o, {
-     Name = "Aim Bot Há»— trá»£ Pvp",
+     Name = "Aim Bot",
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/AimBotSkibidi/refs/heads/main/TuanAnhIOS-AIMBOT.Lua"))()
   end
@@ -483,13 +483,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/fakekuri/BlueXHub/ref
   end
   })
   AddButton(Tab2o, {
-     Name = "Tuáº¥n Anh ios",
+     Name = "Tun Anh ios",
     Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/TuanAnhIOS/refs/heads/main/TuanAnhIOS.lua"))()
   end
   })
   AddButton(Tab13o, {
-     Name = "tuáº¥n anh ios auto find fruit",
+     Name = "auto find fruit",
     Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/AutoFruitDepzai/refs/heads/main/TuanAnhIOS-Find-Fruit.Lua"))()
   end
@@ -588,7 +588,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiH
   end
   })
   AddButton(Tab7o, {
-     Name = "VÄƒn thÃ nh ios aim",
+     Name = "Vn Thành ios",
     Callback = function()
        loadstring(Game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/oniichanpakavanthanhios"))()
   end
