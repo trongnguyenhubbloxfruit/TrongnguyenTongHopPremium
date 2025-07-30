@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
        local Window = MakeWindow({
          Hub = {
-         Title = "TrongNguyen Premium Vừa đc Update ",
+         Title = "TrongNguyen Premium Update 6.43 Pm ",
          Animation = "Premium"
          },
         Key = {
@@ -557,4 +557,60 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubNewUpdated.lua"))()
   end
   })
+  AddButton(Tab2o, {
+     Name = "Tsuo Hub",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "Zis Roblox Banana Hub",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisOrion"))()
+  end
+  })
+  AddButton(Tab7o, {
+     Name = "Vxeze hub",
+    Callback = function()
+       loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Vxeze-Hub-Auto-Bounty-42378"))()  
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "BlueXhub",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "Yuri Hub",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/YuriMain", true))() 
+  end
+  })
+  AddButton(Tab7o, {
+     Name = "Văn thành ios aim",
+    Callback = function()
+       loadstring(Game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/oniichanpakavanthanhios"))()
+  end
+  })
+  AddButton(Tab3o, {
+     Name = "TrongNguyen FixLag",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/trongnguyenhubbloxfruit/TrongnguyenFixLag/refs/heads/main/SkidCondimemay.txt"))()
+  end
+  })
+  AddButton(Tab5o, {
+     Name = "Yinner Hub Kaitun Hop",
+    Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/cocaigidaumaskid/Yiner-Hub/refs/heads/main/KaitunTyrantOfTheSkies.lua"))()
+  end
+  })
+  AddButton(Tab11o, {
+     Name = "Zumacu Dead Rail",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/skibidip1/Hack/refs/heads/main/Auto%20bond"))()
+  end
+  })
   
+  
+   
