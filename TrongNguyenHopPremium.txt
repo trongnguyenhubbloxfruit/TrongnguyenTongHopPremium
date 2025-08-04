@@ -4,7 +4,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "TrongNguyen Premium Hub ",
-         Animation = "Tổng Hợp By Trongnguyen"
+         Animation = "By Trongnguyen"
          },
         Key = {
         KeySystem = true,
@@ -22,7 +22,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=130252464539341",
+       Image = "http://www.roblox.com/asset/?id=123986636797643",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -44,6 +44,9 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab11o = MakeTab({Name = "Script Dead rail"})
      local Tab12o = MakeTab({Name = "sleat a brainrot"})
      local Tab13o = MakeTab({Name = "Auto Lụm Trái"})
+     local Tab14o = MakeTab({Name = "Script ink game"})
+     local Tab15= MakeTab({Name = "Script blade ball"})
+     local Tab16o = MakeTab({Name = "Fram Chest"})
      
 ------- BUTTON
     
@@ -629,6 +632,42 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiH
      Name = "NaNa TV Hub",
     Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/trongnguyenhubbloxfruit/NANATVHUB/refs/heads/main/NaNaTvHub.txt"))()
+  end
+  })
+  AddButton(Tab14o, {
+     Name = "Đéo Biết tên",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/RadiantSkullz/TemporaryRelease/refs/heads/main/InkGame.lua"))()
+  end
+  })
+  AddButton(Tab14o, {
+     Name = "đéo bt tên 2",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/wefwef127382/inkgames.github.io/refs/heads/main/ringta.lua"))()
+  end
+  })
+  AddButton(Tab15o, {
+     Name = "ko nhớ",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/wefwef127382/inkgames.github.io/refs/heads/main/ringta.lua"))()
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "W-azure Mới Comback",
+    Callback = function()
+       loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/85e904ae1ff30824c1aa007fc7324f8f.lua"))()
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "Quantum hub",
+    Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"))()
+  end
+  })
+  AddButton(Tab16o, {
+     Name = "Kimp Roblox",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuyenhuu1122/kimPDepZai/refs/heads/main/Framchest"))()
   end
   })
   
